@@ -14,11 +14,15 @@ To do smoothing requires the degree of the polynomial used, ```smoothfractal-chi
 
 See ```smoothfractal-exe -h``` for flags
 
+## Example 1
+
 ![alt text](https://github.com/fabricatedmath/smoothfractal/blob/master/examples/example.jpg "Example")
 
 Example generated with
 
 ```smoothfractal-exe -A 2 -R 1024 -f example2.bmp -F "z^7 + 4*z^2 + 4*c^8 + 2*c1" -C "[('c1','(-2.7829999999999966e-2):+(-0.1)')]"```
+
+## Example 2
 
 ![alt text](https://github.com/fabricatedmath/smoothfractal/blob/master/examples/example2.jpg "Example2")
 
