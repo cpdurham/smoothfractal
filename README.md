@@ -16,7 +16,7 @@ See ```smoothfractal-exe -h``` for flags
 
 ## Example 1
 
-![alt text](https://github.com/fabricatedmath/smoothfractal/blob/master/examples/example.jpg "Example")
+![alt text](https://c1.staticflickr.com/5/4796/26786837058_b3d0d2b101_b.jpg "Example")
 
 Example generated with
 
@@ -24,7 +24,7 @@ Example generated with
 
 ## Example 2
 
-![alt text](https://github.com/fabricatedmath/smoothfractal/blob/master/examples/example2.jpg "Example2")
+![alt text](https://c1.staticflickr.com/5/4760/25787209307_7d3d0cccdd_b.jpg "Example2")
 
 Example generated with 
 
