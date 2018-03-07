@@ -1,7 +1,7 @@
 name:                smoothfractal
 version:             0.1.0.0
 github:              fabricatedmath/smoothfractal
-license:             BSD2
+license:             BSD3
 author:              Charles Durham
 maintainer:          fabricatedmath@gmail.com
 copyright:           2018 Charles Durham
