@@ -12,7 +12,7 @@ When running ```smoothfractal-exe``` you may pass in command line functions of v
 
 To do smoothing requires the degree of the polynomial used, ```smoothfractal-child-exe``` uses overloading to determine the polynomial degree of the passed in function. Due to this, if you use constants in the function, you have to add them in with the ```-C``` flag like: ```smoothfractal-exe -F "z^2 + c + c1" -C "[('c1','(-0.2):+(-0.2))]"```
 
-See ```smoothfractal-exe -h``` for flags
+See ```smoothfractal-exe -h``` for flags.
 
 ## Example 1
 
