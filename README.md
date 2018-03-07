@@ -4,7 +4,7 @@ Smoothed Mandelbrot in Haskell
 Inspired by Inigo Quilez: http://iquilezles.org/www/articles/mset_smooth/mset_smooth.htm
 
 ## Installation and Usage
-Install haskell stack, cd into directory ```stack install```
+Install [Haskell Stack](https://docs.haskellstack.org/en/stable/README/), cd into directory ```stack install```
 
 This builds two binaries, ```smoothfractal-exe``` and ```smoothfractal-child-exe```
 
