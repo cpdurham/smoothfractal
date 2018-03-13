@@ -13,7 +13,6 @@ import Linear
 
 import System.Environment
 
-import Degree
 import Func
 
 main :: IO ()
@@ -59,6 +58,8 @@ positionPoint res loc aaoffset = (-res' + 2 * (loc' + aaoffset)) / res'
   where res' = fmap fromIntegral res
         loc' = fmap fromIntegral loc
 
+{-# INLINABLE positionPoint #-}
+
 mandelbrot :: Complex Double -> (Int, Complex Double) -> (Int, Complex Double)
 mandelbrot c  = go
   where
@@ -66,6 +67,8 @@ mandelbrot c  = go
       | iter == iLimit || r*r + i*i > bsq = v
       | otherwise = go (iter+1,z')
       where z' = func c z
+
+{-# INLINABLE mandelbrot#-}
 
 renderPoint :: V2 Double -> V3 Double
 renderPoint (V2 y x) =
@@ -78,3 +81,5 @@ renderPoint (V2 y x) =
     b = transform 1
   in
     V3 r g b
+
+{-# INLINABLE renderPoint#-}

@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e1a5f0260c9168bace04ace8382a61cbe7c63af12635619e4a10c56d116894af
+-- hash: e14f8f3214e665a82babd4ae139618008873fe9a78ec0621c37568919735e64a
 
 name:           smoothfractal
 version:        0.1.0.0
@@ -13,6 +13,7 @@ author:         Charles Durham
 maintainer:     fabricatedmath@gmail.com
 copyright:      2018 Charles Durham
 license:        BSD3
+license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 
